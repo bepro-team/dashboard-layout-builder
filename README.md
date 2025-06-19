@@ -1,6 +1,6 @@
 # 📊 Dashboard Layout Builder for Laravel
 
-A Laravel 12 package to build dashboard layouts using a fluent, chainable syntax. Output your structure as **JSON** or renderable HTML (coming soon).
+A Laravel package to build dashboard layouts using a fluent, chainable syntax. Output your structure as **JSON** or renderable HTML (coming soon).
 
 ---
 
@@ -32,8 +32,8 @@ use DashboardLayoutBuilder\LayoutRow;
 use DashboardLayoutBuilder\LayoutColumn;
 use DashboardLayoutBuilder\LayoutContent;
 
-DashboardLayoutBuilder()
-  ->schema([
+(new DashboardLayoutBuilder())
+    ->schema([
     LayoutRow::make()->schema([
       LayoutColumn::make()->schema([
         LayoutContent::make('content_title')
@@ -109,11 +109,10 @@ Define a content block with a title, a human-readable label, and content body.
 ## 🤝 Contributing
 
 Feel free to submit PRs or open issues!  
-If you'd like to suggest a feature, open a [discussion](https://github.com/yourusername/dashboard-layout-builder/discussions).
+If you'd like to suggest a feature, open a [discussion](https://github.com/beproteams/dashboard-layout-builder/discussions).
 
 ---
 
 ## 🔗 Links
 
-- [Packagist](https://packagist.org/packages/yourusername/dashboard-layout-builder)
-- [GitHub](https://github.com/yourusername/dashboard-layout-builder)
+- [GitHub](https://github.com/beproteams/dashboard-layout-builder)
