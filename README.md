@@ -17,7 +17,7 @@ A Laravel package to build dashboard layouts using a fluent, chainable syntax. O
 ## 🚀 Installation
 
 ```bash
-composer require beproteams/dashboard-layout-builder
+composer require beproteam/dashboard-layout-builder
 ```
 
 Laravel will auto-discover the service provider.
@@ -109,10 +109,10 @@ Define a content block with a title, a human-readable label, and content body.
 ## 🤝 Contributing
 
 Feel free to submit PRs or open issues!  
-If you'd like to suggest a feature, open a [discussion](https://github.com/beproteams/dashboard-layout-builder/discussions).
+If you'd like to suggest a feature, open a [discussion](https://github.com/beproteam/dashboard-layout-builder/discussions).
 
 ---
 
 ## 🔗 Links
 
-- [GitHub](https://github.com/beproteams/dashboard-layout-builder)
+- [GitHub](https://github.com/beproteam/dashboard-layout-builder)
