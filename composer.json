@@ -1,5 +1,5 @@
 {
-  "name": "bepro-team/dashboard-layout-builder",
+  "name": "beproteam/dashboard-layout-builder",
   "description": "Dashboard layout builder for Laravel 12, supporting JSON and HTML.",
   "type": "library",
   "license": "MIT",
