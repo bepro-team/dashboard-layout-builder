@@ -4,14 +4,14 @@ namespace DashboardLayoutBuilder;
 
 class LayoutContent
 {
-    protected string $title;
+    protected string $key;
     protected string $label;
     protected mixed $content;
 
-    public static function make(string $title): self
+    public static function make(string $key): self
     {
         $instance = new self();
-        $instance->title = $title;
+        $instance->key = $key;
         return $instance;
     }
 
@@ -31,7 +31,7 @@ class LayoutContent
     {
         return [
             'type' => 'layout_content',
-            'title' => $this->title,
+            'key' => $this->key,
             'label' => $this->label ?? null,
             'contents' => $this->content,
         ];

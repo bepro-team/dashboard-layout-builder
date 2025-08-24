@@ -36,7 +36,7 @@ use DashboardLayoutBuilder\LayoutContent;
     ->schema([
     LayoutRow::make()->schema([
       LayoutColumn::make()->schema([
-        LayoutContent::make('content_title')
+        LayoutContent::make('content_key')
           ->label('Content Label')
           ->content('contents goes here')
       ])
@@ -62,7 +62,7 @@ use DashboardLayoutBuilder\LayoutContent;
           "contents": [
             {
               "type": "layout_content",
-              "title": "content_title",
+              "key": "content_key",
               "label": "Content Label",
               "contents": "contents goes here"
             }
@@ -87,8 +87,8 @@ Define a row and optionally set column specifications (e.g. `'md' => 3` or just 
 ### `LayoutColumn::make()->schema([...])`
 Define a column which can include other columns, rows, or contents.
 
-### `LayoutContent::make('title')->label(string $label)->content(mixed $content)`
-Define a content block with a title, a human-readable label, and content body.
+### `LayoutContent::make('key')->label(string $label)->content(mixed $content)`
+Define a content block with a key, a human-readable label, and content body.
 
 ---
 
